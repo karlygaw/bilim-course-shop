@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    max-width: 80%
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo img {
+    max-width: 15%;
+}
+
+/* Reset end */
+/* Default classes start */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Default classes end */
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 2000px;
+    margin: auto;
+    padding: 0 100px;
+}
+
+.standart-section {
+    padding: 80px;
+}
+
+.section-title {
+    font-weight: 900;
+    margin-bottom: 75px;
+    font-size: 30px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 60px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: #212121;
+
+}
+
+.btn.btn-default {
+    background-color: #fffd00;
+    background-color: #fffd00;
+    box-shadow: 0 8px 15px rgba(255, 253, 0, 0.5);
+}
+
+.btn.btn-default:hover {
+    background-color: #fff;
+}
+
+#header {
+    padding: 0px 0;
+    border-bottom: 2px solid #00e9ba;
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    ;
+}
+
+.header-nav {
+    font-size: 25px;
+    font-weight: 575;
+}
+
+.header-nav a {
+    text-transform: capitalize;
+}
+
+.header-nav a+a {
+    margin-left: 20px;
+}
+
+.header-nav a:hover {
+    color: #00e9ba;
+}
+
+.course-item {
+    background-color: #fff;
+    box-shadow: 0 13px 27px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.course-item .course-img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.course-item .course-title {
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.course-item .course-price {
+    font-size: 30px;
+    font-weight: 700;
+    color: #00e9ba;
+}
+
+.course-item .course-date {
+    width: 100px;
+    height: 100px;
+    background-color: #fdd835;
+    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: -50px;
+}
+
+
+.about-us-text {
+    font-size: 18px;
+    line-height: 1.3;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
