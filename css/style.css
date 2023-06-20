@@ -118,12 +118,20 @@ ul {
     border-bottom: 2px solid #00e9ba;
     background-color: white;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
-    ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .header-nav {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 575;
+}
+
+#main {
+    padding-top: 87px;
 }
 
 .header-nav a {
